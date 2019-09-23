@@ -14,7 +14,7 @@ if [ $? != 0 ]; then
 	exit 1
 fi
 
-java -Xshare:off -XX:DumpLoadedClassList=myappCDS.lst -cp appcds.jar:. AppCDS
+java -Xshare:off -XX:DumpLoadedClassList=myappCDS.lst -cp .:appcds.jar AppCDS
 if [ $? != 0 ]; then
 	exit 1
 fi
