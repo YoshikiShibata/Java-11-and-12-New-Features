@@ -1,5 +1,3 @@
-// Copyright (C) Yoshiki Shibata. All rights reserved.
-
 public class WelcomeTextBlocks {
     public static void main(String[] args) {
         String html = """

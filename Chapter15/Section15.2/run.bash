@@ -1,5 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash 
 
 javac --enable-preview --release 13 -Xlint:preview WelcomeTextBlocks.java
-cd ..
-java --enable-preview welcome_text_blocks.WelcomeTextBlocks
+java --enable-preview WelcomeTextBlocks
