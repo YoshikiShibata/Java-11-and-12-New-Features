@@ -1,4 +1,4 @@
-class StringSample {
+class StringExample {
     public static void main(String[] args) {
         String html = "<HTML>" +
 "\n\t" + "<BODY>" +
