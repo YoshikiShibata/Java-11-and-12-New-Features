@@ -1,5 +1,3 @@
-package shadowing_of_lambda_parameters;
-
 /*
 The code won't compile with Java 12. Lambda leftovers is in works at Oracle.
  */
