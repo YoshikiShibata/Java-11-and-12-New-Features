@@ -6,10 +6,10 @@ public class DyingFish {
         if (obj instanceof Ocean o) {             // check & bind
             System.out.println(o.getBottles());   // extract
         }
-    else if (obj instanceof Sea sea) {            // test
+        else if (obj instanceof Sea sea) {            // test
             System.out.println(sea.getDeadFish());
         }
-    else if (obj instanceof River riv) {          // test
+        else if (obj instanceof River riv) {          // test
             if (riv.getPlasticBags() > 100) {      
                 System.out.println("Say no to plastic bags. Fish are dying!");
             }
