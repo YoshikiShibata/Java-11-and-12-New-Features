@@ -5,13 +5,16 @@ public class DyingFish {
 
     void dyingFish(Object obj) {
         switch (obj) {
-            case Ocean o:   System.out.println(o.getBottles());
+            case Ocean o:   
+                System.out.println(o.getBottles());
                 break;
-            case Sea sea:   System.out.println(sea.getDeadFish());
+            case Sea sea:
+                System.out.println(sea.getDeadFish());
                 break;
-            case River riv: if (riv.getPlasticBags() > 100) {
-                System.out.println("Humans enjoy! Fish die!");
-            }
+            case River riv: 
+                if (riv.getPlasticBags() > 100) {
+                    System.out.println("Humans enjoy! Fish die!");
+                }
                 break;
         }
     }
