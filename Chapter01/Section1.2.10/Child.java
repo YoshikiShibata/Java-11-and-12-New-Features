@@ -4,7 +4,7 @@
 
 class Child implements MarathonRunner {
     void whistle() {
-        System.out.println("Child-Whistle");
+        System.out.println("Child-whistle");
     }
 
     void stand() {

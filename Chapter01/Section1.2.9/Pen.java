@@ -15,7 +15,7 @@ class Pen implements Comparable<Pen> {
     }
 
     public int compareTo(Pen pen) {
-        return ((int) (this.price - pen.price));
+        return Double.compare(this.price, pen.price);
     }
 
     public String toString() {
