@@ -1,17 +1,18 @@
 record Emp(String name, int age) {
     // overloading constructor
-    public Emp(String name, String style) {
-        this.name = name;
-        if (style.equals("COOL")) age = 20;
-        else if (style.equals("SAFE")) age = 30;
-        else if (style.equals("ELEGANT")) age = 50;
+    public Emp {
+			if (age < 0) {
+					throw new IllegalArgumentException("age is negative");
+			}
+			/*
+			age = 10;
+        if (name.equals("COOL")) age = 20;
+        else if (name.equals("SAFE")) age = 30;
+        else if (name.equals("ELEGANT")) age = 50;
         else age = 70;
+		*/
     }
     public String fancyOutput() { // additional method
         return "My style is COOL";
     }
-
-	public void setAge(int age) {
-			this.age = age;
-	}
 }
