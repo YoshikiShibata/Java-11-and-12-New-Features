@@ -1,5 +1,5 @@
 public class WithCustomEvents {
-    public static void main(String... args) throws Exception {
+    public static void main(String[] args) throws Exception {
         for (int i = 0; i < 500; i++) {
             new Thread(new AThread("Thread" + i)).start();
         }
