@@ -1,5 +1,3 @@
-package another_syntax_for_switch_expressions;
-
 class Planet {
     enum SingleUsePlastic {STRAW, BAG, SPOON, FORK, KNIFE, PLATE, BOTTLE}
 
