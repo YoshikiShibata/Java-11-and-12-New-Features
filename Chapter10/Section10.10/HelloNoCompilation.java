@@ -1,7 +1,7 @@
 class HelloNoCompilation {
   public static void main(String[] args) {
     System.out.println("No compilation! Are you kidding me?");
-    EstablishedOrg org = new EstablishedOrg();
+    Employs org = new EstablishedOrg();
     org.invite();
     System.out.println(new Startup().name);
   }

@@ -19,8 +19,8 @@ class Planet {
     public void use(SingleUsePlastic plastic) {
         damage += switch (plastic) {
             case SPOON, FORK, KNIFE -> 7;       // Adding (1) or (2), or both will enable the code to compile
-            case PLATE -> 10;                   // line number (1)
-            default -> 100;                     // line number (2)
+            case STRAW, BAG, PLATE, BOTTLE -> 10;     // (1)
+            default -> 100;       // (2)
         };
     }
 

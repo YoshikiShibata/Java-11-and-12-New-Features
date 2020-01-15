@@ -12,11 +12,7 @@ class Planet {
                 damage += 11;
                 break;
             case SPOON:
-                damage += 7;
-                break;
             case FORK:
-                damage += 7;
-                break;
             case KNIFE:
                 damage += 7;
                 break;
