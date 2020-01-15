@@ -25,19 +25,25 @@ final class EmpPOJO {
         this.age = age;
     }
 
+    @Override
     public boolean equals(Object obj) {
-        if (obj == null || (!(obj instanceof EmpPOJO))) return false;
-        else {
-            if ((((EmpPOJO) obj).getName().equals(this.name) && (((EmpPOJO) obj).getAge()) == this.age)) {
-                return true;
-            } else return false;
+        if (obj == this) {
+            return true;
+        } else if (!(obj instanceof EmpPOJO)) {
+            return false;
+        } else {
+            EmpPOJO emp = (EmpPOJO)obj;
+            return (emp.name.equals(this.name) &&
+                    emp.age == this.age);
         }
-    }
+    } 
 
+    @Override
     public String toString() {
         return name + ":" + age;
     }
 
+    @Override
     public int hashCode() {
 		return name.hashCode() * 31 + age;
     }
