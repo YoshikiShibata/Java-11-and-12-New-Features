@@ -1,3 +1,3 @@
 interface Speaker {
-    abstract void conferenceTalk();
+    void conferenceTalk();
 }
