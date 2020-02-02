@@ -18,7 +18,7 @@ public class Person {
     Person() {
         var ctr = 10;                                      // constructor
         for (var loopCtr = 0; loopCtr < 10; ++loopCtr) {   // loop - for
-            switch(loopCtr) {
+            switch (loopCtr) {
                 case 7 :{
                     var probability = ctr / loopCtr;       // switch
                     System.out.println(probability);
