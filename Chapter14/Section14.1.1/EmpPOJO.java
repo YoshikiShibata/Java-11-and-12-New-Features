@@ -17,11 +17,11 @@ final class EmpPOJO {
     }
 
     // mutator methods - setName, setAge
-    public void setName() {
+    public void setName(String name) {
         this.name = name;
     }
 
-    public void setAge() {
+    public void setAge(int age) {
         this.age = age;
     }
 

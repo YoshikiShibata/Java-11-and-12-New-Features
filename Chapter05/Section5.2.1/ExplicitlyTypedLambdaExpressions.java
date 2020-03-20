@@ -9,7 +9,7 @@ public class ExplicitlyTypedLambdaExpressions {
         Predicate<Integer> predicate = (Integer age) -> age > 10;
 
         // input Integer, return String
-        Function<Integer, String> function = (Integer age) -> age > 10 ? "Kid" : "Not a Kid";
+        Function<Integer, String> function = (Integer age) -> age > 10 ? "Not a Kid" : "Kid";
 
         // input Integer, return void
         Consumer<Integer> consumer = (Integer age) -> {

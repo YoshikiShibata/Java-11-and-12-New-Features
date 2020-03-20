@@ -20,7 +20,7 @@ class Planet {
                 damage += 15;
                 break;
             case BOTTLE:
-                damage = 20;
+                damage += 20;
                 break;
         }
     }
